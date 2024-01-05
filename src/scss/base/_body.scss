@@ -7,15 +7,15 @@ html {
 	font-family: $Gothic;
 }
 body {
-	min-width: 1080px;
+	// min-width: 1080px;
 	// min-width: 1200px;
 	color: $textColor;
 	@include fz($baseFont);
 	font-weight: $baseWeight;
 	line-height: $lineHeight;
 	@include bpTb {
-		@include fz($baseFontSp);
-		min-width: auto;
+		// @include fz($baseFontSp);
+		// min-width: auto;
 	}
 }
 a {
