@@ -95,7 +95,7 @@ const deleteFiles = async () => {
 const imageTask = () => {
 	return (
 		gulp
-			.src('./src/img/**/*.{png,jpg}', { base: './src' })
+			.src('./src/img/**/*.{png,jpg,ico,svg,webP,gif}', { base: './src' })
 			// .pipe(
 			// 	gulpif(
 			// 		!isDevelopment,
@@ -173,7 +173,7 @@ const watchFiles = () => {
 		reload,
 	);
 	watch(
-		'./src/img/**/*.{png,jpg}',
+		'./src/img/**/*.{png,jpg,ico,svg,webP,gif}',
 		{ events: ['add', 'change'], ignoreInitial: false },
 		imageTask,
 	).on('change', reload);
