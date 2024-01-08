@@ -28,7 +28,7 @@
 }
 
 @mixin bpPcs {
-	@media screen and (max-width: $baseWidth) {
+	@media screen and (max-width: $bpPcs) {
 		@content;
 	}
 }
