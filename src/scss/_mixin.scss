@@ -16,8 +16,8 @@
 	padding-left: 24px;
 	@include breakpoint($baseWidth) {
 		// max-width: $baseWidthSp;
-		padding-right: 16px;
-		padding-left: 16px;
+		padding-right: baseWidthPadding;
+		padding-left: baseWidthPadding;
 	}
 }
 
