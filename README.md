@@ -11,9 +11,13 @@
 
 2. 新規プロジェクトの作成
 
-- mv lp_coding_temp/ [新規プロジェクト名] && cd ./[新規プロジェクト名] && code . && npm install
+- cd ../ && mv lp_coding_temp/ [新規プロジェクト名] && cd ./[新規プロジェクト名]
 
-3. リポジトリを変更する
+3. vscode 起動,node_module インストール
+
+- cd ./[新規プロジェクト名] && code . && npm install
+
+4. リポジトリを変更する
 
 - git remote set-url origin [変更する GitHub のリポジトリ]
 
