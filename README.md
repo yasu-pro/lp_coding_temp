@@ -15,7 +15,7 @@
 
 3. vscode 起動,node_module インストール
 
-- cd ./[新規プロジェクト名] && code . && npm install
+- code . && npm install
 
 4. リポジトリを変更する
 
